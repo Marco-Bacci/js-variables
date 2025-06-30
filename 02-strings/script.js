@@ -14,7 +14,6 @@ let all = number+" "+ text+" "+boolean
 console.log(all)
 
 
-
 // 3. Sostituisci null nelle righe sottostanti utilizzando operazioni con le stringhe
 // e le variabili sopra in modo da stampare correttamente 
 // in console la stringa con il nome completo
@@ -22,7 +21,7 @@ const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'; // NON MODIFICARE QUESTA RIGA
 const firstName = 'Jane'; // NON MODIFICARE QUESTA RIGA
 const lastName = 'Smith'; // NON MODIFICARE QUESTA RIGA
 
-const fullName = null;
+const fullName = firstName +" "+lastName;
 console.log(fullName); // Output: "Jane Smith"
 
 // 4. Imposta questa variabile utilizzando una proprietà
